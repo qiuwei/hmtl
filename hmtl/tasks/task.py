@@ -2,7 +2,7 @@
 
 from typing import List
 from allennlp.common import Params
-from allennlp.commands.train import datasets_from_params
+from allennlp.training.util import datasets_from_params
 from allennlp.data.iterators import DataIterator
 from allennlp.common.checks import ConfigurationError
 

@@ -7,7 +7,7 @@ import torch
 from torch.nn import Dropout, Linear
 from torch.nn import GRU
 
-from allennlp.nn.util import last_dim_softmax, weighted_sum
+from allennlp.nn.util import  weighted_sum
 from allennlp.modules.seq2seq_encoders.seq2seq_encoder import Seq2SeqEncoder
 from allennlp.common.params import Params
 

@@ -22,7 +22,8 @@ from allennlp.common.util import peak_memory_mb, gpu_memory_mb
 from allennlp.nn.util import device_mapping, move_to_device
 from allennlp.training.learning_rate_schedulers import LearningRateScheduler
 from allennlp.training.optimizers import Optimizer
-from allennlp.training.trainer import sparse_clip_norm, TensorboardWriter
+from allennlp.training.util import sparse_clip_norm
+from allennlp.training.tensorboard_writer import TensorboardWriter
 from allennlp.models.model import Model
 from allennlp.common.registrable import Registrable
 

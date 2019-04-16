@@ -150,7 +150,7 @@
 			},
 			"tagger": {
 				"label_namespace": "ontonotes_ner_labels",
-				"constraint_type": "BIOUL",
+				"label_encoding": "BIOUL",
 				"dropout": 0.2 		
 			}
 		},
@@ -166,7 +166,7 @@
 			},
 			"tagger": {
 				"label_namespace": "ace_mention_labels",
-				"constraint_type": "BIOUL",
+				"label_encoding": "BIOUL",
 				"dropout": 0.2 
 			}
 		},

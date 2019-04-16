@@ -81,7 +81,7 @@
 			},
 			"tagger": {
 				"label_namespace": "ontonotes_ner_labels",
-				"constraint_type": "BIOUL",
+				"label_encoding": "BIOUL",
 				"dropout": 0.2 		
 			}
 		}
